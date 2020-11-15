@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+        "jss": "^10.4.0"
+    },
+    "devDependencies": {
+        "@types/node": "^14.14.7",
+        "typescript": "^4.0.5"
+    },
+    "name": "ts-js-test",
+    "version": "1.0.0",
+    "description": "test with ts",
+    "main": "./dist/index.js",
+    "author": "@jjswifty",
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+        "start": "node ./dist/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "tsc": "tsc -w"
+    }   
+}
